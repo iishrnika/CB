@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "Protocol": "Both",
+        "Port": "7777",
+        "Name": "game port",
+        "Description": "Port used for main game traffic",
+        "Ref": "gameport"
+    }
+]
