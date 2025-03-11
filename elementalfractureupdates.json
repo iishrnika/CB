@@ -7,7 +7,7 @@
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
-        "OneShot": false
+        "OneShot": true
     },
     {
         "UpdateStageName": "BalancePatch",
