@@ -1,0 +1,23 @@
+[
+    {
+        "UpdateStageName": "Downloading",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://cdn.elefrac.com/server/server.zip",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "BalancePatch",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://cdn.elefrac.com/patch/latest.zip",
+        "UpdateSourceTarget": "serverfiles\\g3\\Content\\Paks",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
