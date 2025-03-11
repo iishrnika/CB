@@ -16,7 +16,7 @@
         "UpdateSourceData": "https://cdn.elefrac.com/patch/latest.zip",
         "UpdateSourceTarget": "serverfiles\\g3\\Content\\Paks",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     }
